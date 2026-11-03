@@ -1,0 +1,40 @@
+{
+  "FormKey": "000F99:CompanionWeaponProficiency.esp",
+  "VersionControl": 12129,
+  "EditorID": "abManageTeammateUseAmmo",
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "manageTeammateUseAmmo",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "TeammateDontUseAmmoKeyword",
+            "Object": "23F1CA:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "manageTeammateUseAmmo"
+  },
+  "Flags": [
+    "Recover",
+    "NoDuration",
+    "NoArea",
+    "NoHitEffect"
+  ],
+  "Archetype": {
+    "MutagenObjectType": "MagicEffectArchetype",
+    "Type": "Script"
+  },
+  "DualCastScale": 1.0,
+  "CastingSoundLevel": "Normal",
+  "Sounds": [],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ModKey": "CompanionWeaponProficiency.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 4000
+    },
+    "Author": "DEFAULT",
+    "INTV": "0x01000000"
+  }
+}

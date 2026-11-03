@@ -1,0 +1,4 @@
+{"version":1,"steps":[
+{"copy":["CompanionProficiency_DISTR.ini","Scripts"]},
+{"compile":["CompanionWeaponProficiency.esp"]}
+]}

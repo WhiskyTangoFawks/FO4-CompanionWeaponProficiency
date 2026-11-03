@@ -1,0 +1,10 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/Companion\ Weapon\ Proficiency.manifest.json
+/CompanionProficiency_DISTR.ini
+/Scripts/Source/User/manageTeammateUseAmmo.psc
+/Scripts/manageTeammateUseAmmo.pex

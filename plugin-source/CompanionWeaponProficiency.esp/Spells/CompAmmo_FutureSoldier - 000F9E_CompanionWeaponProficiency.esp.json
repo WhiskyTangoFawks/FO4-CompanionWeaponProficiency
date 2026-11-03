@@ -1,0 +1,90 @@
+{
+  "FormKey": "000F9E:CompanionWeaponProficiency.esp",
+  "EditorID": "CompAmmo_FutureSoldier",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "EquipmentType": "013F44:Fallout4.esm",
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Type": "Ability",
+  "Effects": [
+    {
+      "BaseEffect": "000F99:CompanionWeaponProficiency.esp",
+      "Data": {},
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "092A86:Fallout4.esm",
+            "ParameterOneNumber": 600710
+          }
+        },
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "04A0A3:Fallout4.esm",
+            "ParameterOneNumber": 303267
+          }
+        },
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "ComparisonValue": 1.0,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "092A84:Fallout4.esm",
+            "ParameterOneNumber": 600708
+          }
+        }
+      ]
+    },
+    {
+      "BaseEffect": "000F99:CompanionWeaponProficiency.esp",
+      "Data": {},
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "092A86:Fallout4.esm",
+            "ParameterOneNumber": 600710
+          }
+        },
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "04A0A3:Fallout4.esm",
+            "ParameterOneNumber": 303267
+          }
+        },
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown1": "0xD04A99",
+          "ComparisonValue": 1.0,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "WornHasKeyword",
+            "ParameterOneRecord": "092A85:Fallout4.esm",
+            "ParameterOneNumber": 600709
+          }
+        }
+      ]
+    }
+  ]
+}
